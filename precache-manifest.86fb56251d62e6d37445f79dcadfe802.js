@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a8b3da837b004e9c060bcebb032a4dd1",
+    "revision": "4ff4969190fceafc71fc2f437ff33b3b",
     "url": "/lemoLogin/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lemoLogin/static/css/2.5370c9d5.chunk.css"
   },
   {
-    "revision": "ed5a28749aae16c93212",
+    "revision": "0d33d39cb1f91a38645d",
     "url": "/lemoLogin/static/css/main.f8986e1f.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lemoLogin/static/js/6.be42ad9e.chunk.js"
   },
   {
-    "revision": "ed5a28749aae16c93212",
-    "url": "/lemoLogin/static/js/main.82fdf461.chunk.js"
+    "revision": "0d33d39cb1f91a38645d",
+    "url": "/lemoLogin/static/js/main.87b433e1.chunk.js"
   },
   {
     "revision": "9a1928117f2a6691d3bb",
