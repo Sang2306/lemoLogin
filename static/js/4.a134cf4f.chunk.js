@@ -1,0 +1,2 @@
+(this.webpackJsonplemoLogin=this.webpackJsonplemoLogin||[]).push([[4],{77:function(e,n,t){"use strict";t.r(n);var a=t(0),i=t.n(a);n.default=function(e){return i.a.createElement("div",{id:"wrapper"},i.a.createElement("div",{className:"main_content"},e.children))}}}]);
+//# sourceMappingURL=4.a134cf4f.chunk.js.map

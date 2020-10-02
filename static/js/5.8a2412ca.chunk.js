@@ -1,0 +1,2 @@
+(this.webpackJsonplemoLogin=this.webpackJsonplemoLogin||[]).push([[5],{78:function(e,n,t){"use strict";t.r(n);var l=t(0),u=t.n(l),a=t(15),c=t(9);n.default=function(){var e=Object(a.c)((function(e){return e.authReducer.user}));return u.a.createElement("div",null,u.a.createElement("p",null,"th\xf4ng tin user"),u.a.createElement("br",null),u.a.createElement("p",null,e.username),u.a.createElement("p",null,u.a.createElement("button",{onClick:function(){Object(c.c)()}},"logout")))}}}]);
+//# sourceMappingURL=5.8a2412ca.chunk.js.map

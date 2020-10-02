@@ -1,2 +1,0 @@
-(this["webpackJsonphinnox.com"]=this["webpackJsonphinnox.com"]||[]).push([[3],{79:function(n,t,e){"use strict";e.r(t);var c=e(0),i=e.n(c);t.default=function(){return i.a.createElement("div",null,"404")}}}]);
-//# sourceMappingURL=3.cb0debec.chunk.js.map
