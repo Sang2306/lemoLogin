@@ -15,7 +15,7 @@ const routes = [
         isPrivate: true
     },
     {
-        path: 'lemoLogin/login',
+        path: '/lemoLogin/login',
         layout: Login,
         component: Login,
         isPrivate: false
