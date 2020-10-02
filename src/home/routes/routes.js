@@ -8,14 +8,14 @@ const NotFound = React.lazy(() => import('../../error-pages/Page404'));
 const routes = [
     // --------------------------- general  -----------------------
     {
-        path: '/',
+        path: '/lemoLogin',
         exact: true,
         layout: MainLayout,
         component: Home,
         isPrivate: true
     },
     {
-        path: '/login',
+        path: 'lemoLogin/login',
         layout: Login,
         component: Login,
         isPrivate: false
