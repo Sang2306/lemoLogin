@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lemoLogin/precache-manifest.3bee4aabe46a9141ee8e0c58436941ea.js"
+  "/lemoLogin/precache-manifest.aa0e0d8c8b506865ed00a88350e7c3e4.js"
 );
 
 self.addEventListener('message', (event) => {
