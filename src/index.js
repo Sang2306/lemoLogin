@@ -4,17 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import 'react-toastify/dist/ReactToastify.min.css';
-import moment from 'moment';
-// import 'progressbar.js/dist/progressbar';
-import Swal from 'sweetalert2/dist/sweetalert2.js';
-import 'sweetalert2/src/sweetalert2.scss';
-
 import 'antd/dist/antd.css';
 import { Provider } from 'react-redux';
 import store from './store';
-import "./i18n";
 ReactDOM.render(
   <Provider store={store}>
     <Suspense fallback={null}>

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ToastContainer } from 'react-toastify';
 import TextFieldGroup from '../../../../helpers/commons/TextFieldGroup';
-import { useTranslation } from "react-i18next";
 import { useDispatch} from 'react-redux';
 import { login } from '../../../services/components/auths/authAction';
 
@@ -43,7 +42,6 @@ const Login = (props) => {
         setRemember(e.target.checked);
     }
 
-    const { t } = useTranslation();
     return (
         <>
             <div uk-height-viewport className="uk-flex uk-flex-middle uk-grid-collapse uk-grid-match" uk-grid>
@@ -69,22 +67,22 @@ const Login = (props) => {
 
                     <div className="px-5">
                         <div className="my-4 uk-text-center">
-                            <h1 className="mb-2"> {t('login')} </h1>
-                            <p className="my-2">{t('noAccount')} <a href="/register"
-                                className="uk-link text-primary"> {t('register')}</a> </p>
+                            <h1 className="mb-2"> login </h1>
+                            <p className="my-2">chưa có tài khoản ? <a href="/register"
+                                className="uk-link text-primary"> đăng kí</a> </p>
                         </div>
                         <form onSubmit={handleSubmit}>
                             <TextFieldGroup type="email" value={formData.email} placeholder="Your email" onChange={handleChange} name="email" />
                             <TextFieldGroup type="password" value={formData.password} placeholder="Your password" onChange={handleChange} name="password" />
 
                             <div className="form-group">
-                                <label><input className="uk-checkbox mr-2" type="checkbox" onChange={rememberLogin} name="remeber" />{t('rememberLogin')}</label>
+                                <label><input className="uk-checkbox mr-2" type="checkbox" onChange={rememberLogin} name="remeber" />ghi nhớ đăng nhập</label>
                             </div>
                             <div className="form-group">
-                                <button type="submit" className="button primary large block mb-4" type="password" disabled={isDisabled}>{t('login')}</button>
+                                <button type="submit" className="button primary large block mb-4" type="password" disabled={isDisabled}>login</button>
                             </div>
 
-                            <a href="#" className="text-center uk-display-block">{t('forgetPass')}</a>
+                            <a href="#" className="text-center uk-display-block">quên mạt khẩu</a>
                         </form>
                     </div>
 
